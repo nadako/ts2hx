@@ -14,6 +14,7 @@ install:
 
 script:
   - cd $TRAVIS_BUILD_DIR
+  - haxelib git hxparse https://github.com/Simn/hxparse
   - haxe build.hxml
   - git clone https://github.com/borisyankov/DefinitelyTyped
   - neko run.n --recursive DefinitelyTyped
