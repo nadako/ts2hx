@@ -18,4 +18,3 @@ script:
   - git clone https://github.com/borisyankov/DefinitelyTyped
   - neko run.n --recursive DefinitelyTyped
   - haxe test.hxml
-
